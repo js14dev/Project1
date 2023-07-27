@@ -12,12 +12,12 @@ type PageHomeProps = {};
 const PageHome = ({}: PageHomeProps) => {
     return (
         <Parallax>
-            <Details />
+            {/* <Details /> */}
+            <Offer />
+            <Advantages />
             <Work />
             <Protect />
             <Acquaintance />
-            <Offer />
-            <Advantages />
             <JoinCommunity />
         </Parallax>
     );

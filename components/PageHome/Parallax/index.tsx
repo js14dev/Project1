@@ -310,10 +310,13 @@ const Parallax = ({ children }: ParallaxProps) => {
                             <div className={styles.slide_1} ref={slide1}>
                                 <div className={styles.text_1} ref={text1}>
                                     <div className={cn("hero", styles.title)}>
-                                        Join the intergalactic battle.
+                                        Introducing Athena: Your Child's
+                                        Personal Educator
                                     </div>
                                     <div className={cn("h5", styles.info)}>
-                                        Play-to-Earn NFT Marketplace
+                                        Harnessing the power of AI to create
+                                        engaging and effective learning
+                                        experiences
                                     </div>
                                     <Link href="/welcome">
                                         <a
@@ -329,10 +332,13 @@ const Parallax = ({ children }: ParallaxProps) => {
 
                                 <div className={styles.text_2} ref={text2}>
                                     <div className={cn("hero", styles.title)}>
-                                        Protect your planet. Earn 2x money.
+                                        Introducing Athena: Your Child's
+                                        Personal Educator
                                     </div>
                                     <div className={cn("h5", styles.info)}>
-                                        Play-to-Earn NFT Marketplace
+                                        Harnessing the power of AI to create
+                                        engaging and effective learning
+                                        experiences
                                     </div>
                                     <Link href="/gameplay">
                                         <a
@@ -348,13 +354,21 @@ const Parallax = ({ children }: ParallaxProps) => {
 
                                 <div className={styles.background} ref={bg}>
                                     <div className={styles.shift} ref={bgShift}>
-                                        <Image
-                                            src="/images/content/slide-pic-1.png"
-                                            layout="fixed"
-                                            width={1370}
-                                            height={880}
-                                            alt="Space"
-                                        />
+                                        <iframe
+                                            className="elementor-background-video-embed"
+                                            frameBorder="0"
+                                            allowFullScreen={false}
+                                            allow='autoplay; encrypted-media'
+                                            title="Anomaly - 10 Hours - 4K Ultra HD"
+                                            width="640"
+                                            height="360"
+                                            src="https://www.youtube.com/embed/0C3b4WTpLZE?controls=0&amp;rel=0&amp;playsinline=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Feduphoria.ai&amp;widgetid=1"
+                                            id="widget2"
+                                            style={{
+                                                width: "1903px",
+                                                height: "1070.44px",
+                                            }}
+                                        ></iframe>
                                     </div>
                                 </div>
 

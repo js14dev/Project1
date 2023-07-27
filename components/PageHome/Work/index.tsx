@@ -157,7 +157,7 @@ const Work = ({}: WorkProps) => {
                             ></div>
                         </div>
                         <div className={cn("h1", styles.title)}>
-                            How Astrowars work
+                        a new era of parental involvement
                         </div>
                         <div className={styles.list}>
                             {items.map((x, index) => (

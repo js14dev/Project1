@@ -6,7 +6,7 @@ import Image from "../../Image";
 
 type OfferProps = {};
 
-const Timer = ({}) => {
+const Timer = ({ }) => {
     const [time, setTime] = useState<{
         timestamp: number;
         s: number;
@@ -57,24 +57,29 @@ const Timer = ({}) => {
     );
 };
 
-const Offer = ({}: OfferProps) => (
+const Offer = ({ }: OfferProps) => (
     <div className={styles.section}>
         <div className={cn("container-md container-window", styles.container)}>
             <div className={styles.preview}>
-                <Image
-                    src="/images/content/spaceship-1.png"
-                    width="600"
-                    height="600"
-                    alt="Spaceship"
-                />
+                <video
+                    className="jet-video-player jet-video-html5-player jet-video-custom-play-button"
+                    src="https://stateless.sellful.com/2023/07/3b7bda6d-cleanshot202023-07-2220at2013.48.06.mp4"
+                    autoPlay
+                    loop
+                    controls
+                    width={600}
+                    height={600}
+                    controlsList="nodownload"
+                ></video>
             </div>
             <div className={styles.wrap}>
-                <h2 className={cn("h2", styles.title)}>
-                    Build spaceship. Join the battle.
-                </h2>
+                <h2 className={cn("h2", styles.title)}>Empowering Educators</h2>
                 <div className={styles.info}>
-                    Incidunt id delectus cupiditate omnis nisi soluta vel
-                    laboriosam cupiditate.
+                    Athena AI isn’t just for students. Teachers, Athena AI
+                    offers you a powerful tool to track students’ progress,
+                    identify areas for improvement, and customize your teaching
+                    approach. Now you can give each student the individual
+                    attention they deserve.
                 </div>
                 <div className={styles.box}>
                     <div className={styles.line}>

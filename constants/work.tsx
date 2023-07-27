@@ -9,248 +9,135 @@ type ItemsType = {
 
 const items: ItemsType[] = [
     {
-        title: "Build your character",
+        title: "Personalized Learning Paths",
         color: "#1F3D8B",
         image: {
-            src: "/images/content/build-your-colony.png",
+            src: "https://stateless.sellful.com/2023/05/d0ed04e2-je240kkjiua.jpg",
             width: 450,
             height: 450,
-            alt: "Build your character",
+            alt: "Personalized Learning Paths",
         },
         content: (
             <>
-                <p>
-                    Cum et consequatur ducimus et sunt rem. Et et commodi ad
-                    dolorem natus. Molestiae corporis mollitia sit amet
-                    assumenda autem. Accusantium magni quis. Et mollitia hic
-                    illum inventore:
-                </p>
+                <p>Personalized Learning Paths:</p>
                 <ul>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Iste animi consectetur dicta dolorem delectus.</li>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Dolores nesciunt non omnis nisi consequuntu</li>
-                    <li>Dolores nesciunt non omnis nisi</li>
+                    <li>
+                        {" "}
+                        Customized educational experiences tailored to each
+                        student's learning style, pace, and interests.
+                    </li>
                 </ul>
             </>
         ),
     },
     {
-        title: "Battle enemies",
+        title: "Real-Time Performance Analytics",
         color: "#1F3D8B",
         image: {
-            src: "/images/content/details-pic-2.png",
+            src: "https://stateless.sellful.com/2023/05/9b4deb90-ldkhwg5s3ec.jpg",
             width: 450,
             height: 450,
-            alt: "Battle enemies",
+            alt: "Real-Time Performance Analytics",
         },
         content: (
             <>
-                <p>
-                    Cum et consequatur ducimus et sunt rem. Et et commodi ad
-                    dolorem natus. Molestiae corporis mollitia sit amet
-                    assumenda autem. Accusantium magni quis. Et mollitia hic
-                    illum inventore:
-                </p>
+                <p>Real-Time Performance Analytics:</p>
                 <ul>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Iste animi consectetur dicta dolorem delectus.</li>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Dolores nesciunt non omnis nisi consequuntu</li>
-                    <li>Dolores nesciunt non omnis nisi</li>
+                    <li>
+                        Instant insights into student performance, helping
+                        teachers monitor progress and adjust teaching strategies
+                        accordingly.
+                    </li>
                 </ul>
             </>
         ),
     },
     {
-        title: "Build your colony",
+        title: "Peer-To-Peer Learning Support",
         color: "#1F3D8B",
         image: {
-            src: "/images/content/details-pic-3.png",
+            src: "https://stateless.sellful.com/2023/05/90ef59c3-bjb2mgi8pti.jpg",
             width: 450,
             height: 450,
-            alt: "Build your colony",
+            alt: "Peer-To-Peer Learning Support",
         },
         content: (
             <>
-                <p>
-                    Cum et consequatur ducimus et sunt rem. Et et commodi ad
-                    dolorem natus. Molestiae corporis mollitia sit amet
-                    assumenda autem. Accusantium magni quis. Et mollitia hic
-                    illum inventore:
-                </p>
+                <p>Peer-To-Peer Learning Support:</p>
                 <ul>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Iste animi consectetur dicta dolorem delectus.</li>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Dolores nesciunt non omnis nisi consequuntu</li>
-                    <li>Dolores nesciunt non omnis nisi</li>
+                    <li>
+                        Encourage students to collaborate and learn from one
+                        another, fostering a supportive learning community.
+                    </li>
                 </ul>
             </>
         ),
     },
     {
-        title: "Rank up!",
+        title: "Automated Curriculum Mapping",
         color: "#1F3D8B",
         image: {
-            src: "/images/content/characters/image-8.png",
+            src: "https://stateless.sellful.com/2023/05/ebaabe1f-j9jzsqfh5yi.jpg",
             width: 450,
             height: 450,
-            alt: "Rank up!",
+            alt: "Automated Curriculum Mapping",
         },
         content: (
             <>
-                <p>
-                    Cum et consequatur ducimus et sunt rem. Et et commodi ad
-                    dolorem natus. Molestiae corporis mollitia sit amet
-                    assumenda autem. Accusantium magni quis. Et mollitia hic
-                    illum inventore:
-                </p>
+                <p>Automated Curriculum Mapping:</p>
                 <ul>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Iste animi consectetur dicta dolorem delectus.</li>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Dolores nesciunt non omnis nisi consequuntu</li>
-                    <li>Dolores nesciunt non omnis nisi</li>
+                    <li>
+                        AI-generated curriculum plans that align with
+                        educational standards and adapt to individual student
+                        needs.
+                    </li>
                 </ul>
             </>
         ),
     },
     {
-        title: "Defend your base",
+        title: "Predictive Analytics For Early Intervention",
         color: "#1F3D8B",
         image: {
-            src: "/images/content/build-your-colony.png",
+            src: "https://stateless.sellful.com/2023/05/7623d693-o5emzfdxedg.jpg",
             width: 450,
             height: 450,
-            alt: "Defend your base",
+            alt: " Predictive Analytics For Early Intervention",
         },
         content: (
             <>
-                <p>
-                    Cum et consequatur ducimus et sunt rem. Et et commodi ad
-                    dolorem natus. Molestiae corporis mollitia sit amet
-                    assumenda autem. Accusantium magni quis. Et mollitia hic
-                    illum inventore:
-                </p>
+                <p>Predictive Analytics For Early Intervention:</p>
                 <ul>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Iste animi consectetur dicta dolorem delectus.</li>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Dolores nesciunt non omnis nisi consequuntu</li>
-                    <li>Dolores nesciunt non omnis nisi</li>
+                    <li>
+                        Identify at-risk students early on and provide timely
+                        interventions to support their learning journey.
+                    </li>
                 </ul>
             </>
         ),
     },
     {
-        title: "Trade items",
+        title: "Collaborative Learning Tools",
         color: "#1F3D8B",
         image: {
-            src: "/images/content/details-pic-2.png",
+            src: "https://stateless.sellful.com/2023/04/73ae36c0-tinh-khuong-psfggbywmai-unsplash.jpg",
             width: 450,
             height: 450,
-            alt: "Trade items",
+            alt: "Collaborative Learning Tools",
         },
         content: (
             <>
-                <p>
-                    Cum et consequatur ducimus et sunt rem. Et et commodi ad
-                    dolorem natus. Molestiae corporis mollitia sit amet
-                    assumenda autem. Accusantium magni quis. Et mollitia hic
-                    illum inventore:
-                </p>
+                <p>Collaborative Learning Tools:</p>
                 <ul>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Iste animi consectetur dicta dolorem delectus.</li>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Dolores nesciunt non omnis nisi consequuntu</li>
-                    <li>Dolores nesciunt non omnis nisi</li>
+                    <li>
+                        Facilitate effective communication and collaboration
+                        between students, teachers, and parents.
+                    </li>
                 </ul>
             </>
         ),
     },
-    {
-        title: "Earn & Stake",
-        color: "#1F3D8B",
-        image: {
-            src: "/images/content/details-pic-3.png",
-            width: 450,
-            height: 450,
-            alt: "Earn & Stake",
-        },
-        content: (
-            <>
-                <p>
-                    Cum et consequatur ducimus et sunt rem. Et et commodi ad
-                    dolorem natus. Molestiae corporis mollitia sit amet
-                    assumenda autem. Accusantium magni quis. Et mollitia hic
-                    illum inventore:
-                </p>
-                <ul>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Iste animi consectetur dicta dolorem delectus.</li>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Dolores nesciunt non omnis nisi consequuntu</li>
-                    <li>Dolores nesciunt non omnis nisi</li>
-                </ul>
-            </>
-        ),
-    },
-    {
-        title: "Challenge friends",
-        color: "#1F3D8B",
-        image: {
-            src: "/images/content/characters/image-8.png",
-            width: 450,
-            height: 450,
-            alt: "Challenge friends",
-        },
-        content: (
-            <>
-                <p>
-                    Cum et consequatur ducimus et sunt rem. Et et commodi ad
-                    dolorem natus. Molestiae corporis mollitia sit amet
-                    assumenda autem. Accusantium magni quis. Et mollitia hic
-                    illum inventore:
-                </p>
-                <ul>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Iste animi consectetur dicta dolorem delectus.</li>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Dolores nesciunt non omnis nisi consequuntu</li>
-                    <li>Dolores nesciunt non omnis nisi</li>
-                </ul>
-            </>
-        ),
-    },
-    {
-        title: "Create clans",
-        color: "#1F3D8B",
-        image: {
-            src: "/images/content/build-your-colony.png",
-            width: 450,
-            height: 450,
-            alt: "Create clans",
-        },
-        content: (
-            <>
-                <p>
-                    Cum et consequatur ducimus et sunt rem. Et et commodi ad
-                    dolorem natus. Molestiae corporis mollitia sit amet
-                    assumenda autem. Accusantium magni quis. Et mollitia hic
-                    illum inventore:
-                </p>
-                <ul>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Iste animi consectetur dicta dolorem delectus.</li>
-                    <li>Et perspiciatis fugit ratione.</li>
-                    <li>Dolores nesciunt non omnis nisi consequuntu</li>
-                    <li>Dolores nesciunt non omnis nisi</li>
-                </ul>
-            </>
-        ),
-    },
+   
 ];
 
 export { items };
