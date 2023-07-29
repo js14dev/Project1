@@ -100,7 +100,7 @@ const Header = ({ noAuth }: HeaderProps) => {
                             </nav>
                         </div>
 
-                        {!noAuth ? (
+                        {/* {!noAuth ? (
                             <div className={styles.control}>
                                 <Notification
                                     className={styles.notification}
@@ -130,7 +130,7 @@ const Header = ({ noAuth }: HeaderProps) => {
                                 </a>
                             </Link>
                         )}
-                        <Logo className={styles.logo} />
+                        <Logo className={styles.logo} /> */}
                     </div>
                 </header>
             )}

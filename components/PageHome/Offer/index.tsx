@@ -81,7 +81,7 @@ const Offer = ({ }: OfferProps) => (
                     approach. Now you can give each student the individual
                     attention they deserve.
                 </div>
-                <div className={styles.box}>
+                {/* <div className={styles.box}>
                     <div className={styles.line}>
                         <div className={cn("title", styles.subtitle)}>
                             Launch day
@@ -100,7 +100,7 @@ const Offer = ({ }: OfferProps) => (
                         <Icon name="discord" size="20" />
                         <span>Join our discord</span>
                     </button>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>

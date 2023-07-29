@@ -19,11 +19,12 @@ const JoinCommunity = ({ className }: JoinCommunityProps) => (
             <div className={styles.inner}>
                 <div className={styles.preview}>
                     <Image
-                        src="/images/content/bg-join.jpg"
+                        src="https://stateless.sellful.com/2023/05/ebaabe1f-j9jzsqfh5yi.jpg"
                         layout="fill"
                         alt="Background"
                         objectFit="cover"
                         sizes="(max-width: 1259px) 944px"
+                      
                     />
                 </div>
                 <div className={styles.wrap}>

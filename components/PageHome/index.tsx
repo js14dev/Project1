@@ -16,8 +16,8 @@ const PageHome = ({}: PageHomeProps) => {
             <Offer />
             <Advantages />
             <Work />
-            <Protect />
-            <Acquaintance />
+            {/* <Protect /> */}
+            {/* <Acquaintance /> */}
             <JoinCommunity />
         </Parallax>
     );

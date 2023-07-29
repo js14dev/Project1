@@ -11,7 +11,7 @@ type FooterProps = {
 const Footer = ({ className }: FooterProps) => (
     <div className={cn(className, styles.footer)}>
         <div className="container-xl">
-            <div className={styles.body}>
+            {/* <div className={styles.body}>
                 <div className={styles.menu}>
                     {NavigationListFooter.map((link, index) => (
                         <Link href={link.url} key={index}>
@@ -24,7 +24,7 @@ const Footer = ({ className }: FooterProps) => (
                         Play now
                     </a>
                 </Link>
-            </div>
+            </div> */}
             <div className={styles.foot}>
                 <div className={styles.copyright}>© 2022 UI8</div>
                 <div className={styles.list}>

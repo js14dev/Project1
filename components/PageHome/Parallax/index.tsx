@@ -89,11 +89,11 @@ const Parallax = ({ children }: ParallaxProps) => {
             bg.current,
             bgShift.current,
             planets1.current,
-            planets2.current,
+            // planets2.current,
             planet.current,
             wrapper.current,
             slide1.current,
-            slide2.current,
+            // slide2.current,
             spaceship.current,
         ]);
 
@@ -106,14 +106,14 @@ const Parallax = ({ children }: ParallaxProps) => {
                         end: "2000px",
                         scrub: true,
                         snap: {
-                            snapTo: [0, 0.5, 1],
+                            snapTo: [0, 0.5],
                             duration: { min: 0.2, max: 3 },
                         },
                         onUpdate: ({ progress }) => {
                             let p = parseFloat(progress.toFixed(1));
                             if (p == 0) setStateScroll(1);
                             if (p == 0.5) setStateScroll(2);
-                            if (p == 1) setStateScroll(3);
+                            // if (p == 1) setStateScroll(3);
                         },
                     },
                 });
@@ -164,17 +164,17 @@ const Parallax = ({ children }: ParallaxProps) => {
                         },
                         1
                     )
-                    .to(
-                        slide2.current,
-                        {
-                            delay: 0.3,
-                            y: 0,
-                            opacity: 1,
-                            pointerEvents: "auto",
-                            zIndex: 5,
-                        },
-                        1
-                    )
+                    // .to(
+                    //     slide2.current,
+                    //     {
+                    //         delay: 0.3,
+                    //         y: 0,
+                    //         opacity: 1,
+                    //         pointerEvents: "auto",
+                    //         zIndex: 5,
+                    //     },
+                    //     1
+                    // )
                     .to(
                         spaceship.current,
                         {
@@ -184,15 +184,15 @@ const Parallax = ({ children }: ParallaxProps) => {
                         },
                         1
                     )
-                    .to(
-                        planets2.current,
-                        {
-                            y: 0,
-                            delay: 0.3,
-                            opacity: 1,
-                        },
-                        1
-                    )
+                    // .to(
+                    //     planets2.current,
+                    //     {
+                    //         y: 0,
+                    //         delay: 0.3,
+                    //         opacity: 1,
+                    //     },
+                    //     1
+                    // )
                     .to(
                         planet.current,
                         {
@@ -250,17 +250,17 @@ const Parallax = ({ children }: ParallaxProps) => {
                         },
                         1
                     )
-                    .to(
-                        slide2.current,
-                        {
-                            delay: 0.3,
-                            y: 0,
-                            opacity: 1,
-                            pointerEvents: "auto",
-                            zIndex: 5,
-                        },
-                        1
-                    )
+                    // .to(
+                    //     slide2.current,
+                    //     {
+                    //         delay: 0.3,
+                    //         y: 0,
+                    //         opacity: 1,
+                    //         pointerEvents: "auto",
+                    //         zIndex: 5,
+                    //     },
+                    //     1
+                    // )
                     .to(
                         spaceship.current,
                         {
@@ -270,15 +270,15 @@ const Parallax = ({ children }: ParallaxProps) => {
                         },
                         1
                     )
-                    .to(
-                        planets2.current,
-                        {
-                            y: 0,
-                            delay: 0.3,
-                            opacity: 1,
-                        },
-                        1
-                    )
+                    // .to(
+                    //     planets2.current,
+                    //     {
+                    //         y: 0,
+                    //         delay: 0.3,
+                    //         opacity: 1,
+                    //     },
+                    //     1
+                    // )
                     .to(
                         planet.current,
                         {
@@ -318,7 +318,7 @@ const Parallax = ({ children }: ParallaxProps) => {
                                         engaging and effective learning
                                         experiences
                                     </div>
-                                    <Link href="/welcome">
+                                    {/* <Link href="/welcome">
                                         <a
                                             className={cn(
                                                 "button",
@@ -327,7 +327,7 @@ const Parallax = ({ children }: ParallaxProps) => {
                                         >
                                             Get a character
                                         </a>
-                                    </Link>
+                                    </Link> */}
                                 </div>
 
                                 <div className={styles.text_2} ref={text2}>
@@ -340,7 +340,7 @@ const Parallax = ({ children }: ParallaxProps) => {
                                         engaging and effective learning
                                         experiences
                                     </div>
-                                    <Link href="/gameplay">
+                                    {/* <Link href="/gameplay">
                                         <a
                                             className={cn(
                                                 "button",
@@ -349,7 +349,7 @@ const Parallax = ({ children }: ParallaxProps) => {
                                         >
                                             See how it work
                                         </a>
-                                    </Link>
+                                    </Link> */}
                                 </div>
 
                                 <div className={styles.background} ref={bg}>
@@ -392,7 +392,7 @@ const Parallax = ({ children }: ParallaxProps) => {
                                 </div>
                             </div>
 
-                            <div className={styles.slide_2} ref={slide2}>
+                            {/* <div className={styles.slide_2} ref={slide2}>
                                 <div className={styles.text_3}>
                                     <div className={cn("hero", styles.title)}>
                                         Land now to join the funny battle.
@@ -446,7 +446,7 @@ const Parallax = ({ children }: ParallaxProps) => {
                                         alt="Spaceship"
                                     />
                                 </div>
-                            </div>
+                            </div> */}
 
                             <div className={styles.control}>
                                 <Mouse className={styles.mouse} />
@@ -455,7 +455,7 @@ const Parallax = ({ children }: ParallaxProps) => {
                                         0{stateScroll}
                                     </div>
                                     <div className={styles.line}></div>
-                                    <div className={styles.all}>03</div>
+                                    <div className={styles.all}>02</div>
                                 </div>
                             </div>
                         </div>

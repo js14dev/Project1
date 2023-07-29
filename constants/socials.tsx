@@ -4,7 +4,7 @@ type SocialsType = {
     icon: string;
 };
 
-const SocialsTitle = "Join our community";
+const SocialsTitle = "Join Eduphoria";
 
 const SocialsList: SocialsType[] = [
     {
