@@ -313,21 +313,21 @@ const Parallax = ({ children }: ParallaxProps) => {
                                         Introducing Athena: Your Child's
                                         Personal Educator
                                     </div>
-                                    <div className={cn("h5", styles.info)}>
+                                    {/* <div className={cn("h5", styles.info)}>
                                         Harnessing the power of AI to create
                                         engaging and effective learning
                                         experiences
-                                    </div>
-                                    {/* <Link href="/welcome">
+                                    </div> */}
+                                    <Link href="https://edu-phoria.herokuapp.com/auth/signup">
                                         <a
                                             className={cn(
                                                 "button",
                                                 styles.button
                                             )}
                                         >
-                                            Get a character
+                                            Get started
                                         </a>
-                                    </Link> */}
+                                    </Link>
                                 </div>
 
                                 <div className={styles.text_2} ref={text2}>
@@ -336,20 +336,20 @@ const Parallax = ({ children }: ParallaxProps) => {
                                         Personal Educator
                                     </div>
                                     <div className={cn("h5", styles.info)}>
-                                        Harnessing the power of AI to create
+                                        {/* Harnessing the power of AI to create
                                         engaging and effective learning
-                                        experiences
+                                        experiences */}
                                     </div>
-                                    {/* <Link href="/gameplay">
+                                    <Link href="/https://edu-phoria.herokuapp.com/auth/signup">
                                         <a
                                             className={cn(
                                                 "button",
                                                 styles.button
                                             )}
                                         >
-                                            See how it work
+                                             Get started
                                         </a>
-                                    </Link> */}
+                                    </Link>
                                 </div>
 
                                 <div className={styles.background} ref={bg}>

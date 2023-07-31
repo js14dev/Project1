@@ -7,31 +7,31 @@ type SocialsType = {
 const SocialsTitle = "Join Eduphoria";
 
 const SocialsList: SocialsType[] = [
-    {
-        title: "Discord",
-        url: "#",
-        icon: "discord",
-    },
-    {
-        title: "Twitter",
-        url: "#",
-        icon: "twitter",
-    },
+    // {
+    //     title: "Discord",
+    //     url: "#",
+    //     icon: "discord",
+    // },
+    // {
+    //     title: "Twitter",
+    //     url: "#",
+    //     icon: "twitter",
+    // },
     {
         title: "Instagram",
         url: "#",
         icon: "instagram",
     },
-    {
-        title: "Telegram",
-        url: "#",
-        icon: "telegram",
-    },
-    {
-        title: "Facebook",
-        url: "#",
-        icon: "facebook",
-    },
+    // {
+    //     title: "Telegram",
+    //     url: "#",
+    //     icon: "telegram",
+    // },
+    // {
+    //     title: "Facebook",
+    //     url: "#",
+    //     icon: "facebook",
+    // },
 ];
 
 const SocialsDescription = "Iste animi consectetur dicta dolorem";

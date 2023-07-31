@@ -114,23 +114,23 @@ const Header = ({ noAuth }: HeaderProps) => {
                                     items={settings}
                                 />
                             </div>
-                        ) : (
-                            <Link href="/getting-started">
-                                <a
-                                    className={cn(
-                                        "button-stroke button-sm",
-                                        styles.button
-                                    )}
-                                >
-                                    <Icon
-                                        name="game"
-                                        className={styles.icon_game}
-                                    />
-                                    Play now
-                                </a>
-                            </Link>
-                        )}
-                        <Logo className={styles.logo} /> */}
+                        ) : ( */}
+                        <Link href="https://edu-phoria.herokuapp.com/auth">
+                            <a
+                                className={cn(
+                                    "button-stroke button-sm",
+                                    styles.button
+                                )}
+                            >
+                                <Icon
+                                    name="game"
+                                    className={styles.icon_game}
+                                />
+                                Log In
+                            </a>
+                        </Link>
+
+                        {/* <Logo className={styles.logo} /> */}
                     </div>
                 </header>
             )}

@@ -7,21 +7,21 @@ const PlayNow = "/";
 
 const NavigationList: NavigationType[] = [
     {
-        title: "Gameplay",
-        url: "/gameplay",
+        title: "Athena",
+        url: "https://eduphoria.ai/learnsphere/",
     },
     {
-        title: "Roadmap",
-        url: "/roadmap",
+        title: "AI Safety",
+        url: "https://eduphoria.ai/safety/",
     },
     {
-        title: "Marketplace",
-        url: "/marketplace",
+        title: "Request Demo",
+        url: "https://f.nativeforms.com/MlY1d0Y31jZmcnRQZVNw0Db",
     },
-    {
-        title: "Download & Play",
-        url: "/download-and-play",
-    },
+    // {
+    //     title: "Download & Play",
+    //     url: "/download-and-play",
+    // },
 ];
 
 const NavigationListFooter: NavigationType[] = [

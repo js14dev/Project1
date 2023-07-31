@@ -21,15 +21,15 @@ const Item = ({ className, item, index }: ItemProps) => {
                 <div className={cn("h4", styles.title)}>{item.title}</div>
                 <div
                     className={styles.preview}
-                    style={{
-                        backgroundColor: item.color,
-                    }}
+                    // style={{
+                    //     backgroundColor: item.color,
+                    // }}
                 >
                     <div className={styles.offset}>
                         <Image
                             src={item.image.src}
-                            width={306}
-                            height={306}
+                            width={206}
+                            height={206}
                             layout="fixed"
                             alt="Work"
                         />

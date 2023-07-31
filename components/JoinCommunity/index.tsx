@@ -29,7 +29,7 @@ const JoinCommunity = ({ className }: JoinCommunityProps) => (
                 </div>
                 <div className={styles.wrap}>
                     <h2 className={cn("h1", styles.title)}>{SocialsTitle}</h2>
-                    <h6 className={styles.description}>{SocialsDescription}</h6>
+                    {/* <h6 className={styles.description}>{SocialsDescription}</h6> */}
                     <div className={styles.socials}>
                         {SocialsList.map((social, index) => (
                             <a

@@ -111,7 +111,7 @@ const Work = ({}: WorkProps) => {
                         <div className={styles.images}>
                             <div className={styles.preview}>
                                 <Image
-                                    src="/images/content/observatory.png"
+                                    src="/images/New/kids.png"
                                     width={444}
                                     height={335}
                                     alt="Observatory"
