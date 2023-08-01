@@ -331,14 +331,14 @@ const Parallax = ({ children }: ParallaxProps) => {
                                 </div>
 
                                 <div className={styles.text_2} ref={text2}>
-                                    <div className={cn("hero", styles.title)}>
+                                    {/* <div className={cn("hero", styles.title)}>
                                         Introducing Athena: Your Child's
                                         Personal Educator
                                     </div>
                                     <div className={cn("h5", styles.info)}>
-                                        {/* Harnessing the power of AI to create
+                                        Harnessing the power of AI to create
                                         engaging and effective learning
-                                        experiences */}
+                                        experiences
                                     </div>
                                     <Link href="/https://edu-phoria.herokuapp.com/auth/signup">
                                         <a
@@ -347,14 +347,14 @@ const Parallax = ({ children }: ParallaxProps) => {
                                                 styles.button
                                             )}
                                         >
-                                             Get started
+                                            Get started
                                         </a>
-                                    </Link>
+                                    </Link> */}
                                 </div>
 
                                 <div className={styles.background} ref={bg}>
                                     <div className={styles.shift} ref={bgShift}>
-                                        <iframe
+                                        {/* <iframe
                                             className="elementor-background-video-embed"
                                             frameBorder="0"
                                             allowFullScreen={false}
@@ -368,7 +368,10 @@ const Parallax = ({ children }: ParallaxProps) => {
                                                 width: "1903px",
                                                 height: "1070.44px",
                                             }}
-                                        ></iframe>
+                                        ></iframe> */}
+                                        <video autoPlay loop muted style={{ width: '1903px', height: '1070.44px' }}>
+                                            <source src="/video/Promo Final.mp4" />
+                                        </video>
                                     </div>
                                 </div>
 
