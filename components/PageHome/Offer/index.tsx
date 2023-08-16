@@ -63,7 +63,7 @@ const Offer = ({ }: OfferProps) => (
             <div className={styles.preview}>
                 <video
                     className="jet-video-player jet-video-html5-player jet-video-custom-play-button"
-                    src="https://stateless.sellful.com/2023/07/3b7bda6d-cleanshot202023-07-2220at2013.48.06.mp4"
+                    src="https://stateless.sellful.com/2023/08/63a97b15-eduphoria-commerial-v1.mp4"
                     autoPlay
                     loop
                     controls

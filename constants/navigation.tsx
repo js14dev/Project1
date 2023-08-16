@@ -8,7 +8,7 @@ const PlayNow = "/";
 const NavigationList: NavigationType[] = [
     {
         title: "Athena",
-        url: "https://eduphoria.ai/learnsphere/",
+        url: "https://eduphoria.ai/athena/",
     },
     {
         title: "AI Safety",

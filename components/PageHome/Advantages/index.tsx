@@ -19,7 +19,7 @@ const Advantages = ({ }: AdvantagesProps) => (
             <div className={styles.preview}>
                 <video
                     className="jet-video-player jet-video-html5-player jet-video-custom-play-button"
-                    src="https://stateless.sellful.com/2023/07/ce1a0e4a-cleanshot-2023-07-17-at-22.55.01.mp4"
+                    src="https://stateless.sellful.com/2023/08/3992be3f-cleanshot202023-08-1020at2009.32.23.mp4"
                     autoPlay
                     loop
                     controls
